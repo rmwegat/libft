@@ -6,7 +6,7 @@
 /*   By: rwegat <rwegat@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 15:07:41 by rwegat            #+#    #+#             */
-/*   Updated: 2023/12/11 17:05:29 by rwegat           ###   ########.fr       */
+/*   Updated: 2025/04/03 16:00:51 by rwegat           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,7 @@
 # include <stdint.h>
 # include <string.h>
 
-typedef struct s_list
-{
-	char			*str_buf;
-	struct s_list	*next;
-}				t_list;
+# include "libft.h"
 
 char	*get_next_line(int fd);
 
